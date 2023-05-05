@@ -12,8 +12,8 @@ export default function Home() {
     <>
       <Nav />
       <AboutMe />
-      <Information />
-      <Footer />
+      {/* <Information />
+      <Footer /> */}
     </>
   )
 }
