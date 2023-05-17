@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import Nav from '@/components/Nav/Nav'
 import AboutMe from '@/components/About/Me'
-import Information from '@/components/Info/Information'
+import Projects from '../components/Info/Projects'
 import Footer from '@/components/Footer/Footer'
 
 
@@ -12,8 +12,7 @@ export default function Home() {
     <>
       <Nav />
       <AboutMe />
-      {/* <Information />
-      <Footer /> */}
+      <Projects />
     </>
   )
 }

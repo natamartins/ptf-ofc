@@ -31,3 +31,45 @@ body {
     top: 70%;
   }
 }
+
+
+.cardIndo {
+  padding: 3rem 0px;
+}
+
+.cardIndo img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.cardIndo h1 {
+  font-size: 2rem;
+}
+
+.cardIndo div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cardIndo div a:hover {
+  color: yellowgreen;
+}
+
+@media (max-width:640px) {
+  .container {
+    max-width: 100%;
+    padding: 0px 2rem;
+  }
+
+  .cardIndo {
+    padding: 3rem 2rem;
+  }
+
+  .cardIndo img {
+    height: auto;
+  }
+}
